@@ -1,9 +1,6 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install network-manager network-manager-gnome
-
-#Setting Up Network Manager
 sudo apt -y install network-manager network-manager-gnome 
 
 sudo systemctl enable network-manager &>/dev/null
